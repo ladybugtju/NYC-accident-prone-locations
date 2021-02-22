@@ -42,7 +42,7 @@ Please instell geopy if you dont have it in your environment.
 + seaborn
 + plotly.express
 + IPython.display 
-+ datetime 
++ datetime  <br>
 All the libraries are listed in the head of the notebook.<br>
 We could provide a requirements.txt or a docker container.<br>
 The code can also be run on google colab or on other clould environments
