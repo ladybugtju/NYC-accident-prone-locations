@@ -85,7 +85,7 @@ From 2019, the data has been showing a decrease in incident records. In 2020, we
 2.The Months<br>
 <img src='img/collisions_months.png' ><br>
 The montly records are pretty steady with slightly lower values in winter seasons and an increase from Mai<br>
-<img src='img/2020_monthtly_NYC_collisions.png.png' ><br>
+<img src='img/2020_monthtly_NYC_collisions.png' ><br>
 The April 2020 sudden drop in records supports our supposition of the effects of covid restrictions effects (A quick check online supports this too but has to be confirmed)<br>
 
 3.The days<br>
