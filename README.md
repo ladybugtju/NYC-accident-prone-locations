@@ -33,7 +33,7 @@ Please instell geopy if you dont have it in your environment.
 ! pip install geopy
 ```
 
-## General Requirements
+### General Requirements
 + Python 3.5+
 + Keras
 + Pandas
