@@ -1,7 +1,7 @@
 ### Question I
 • What is the most dangerous NYC borough / area for a bicycle rider? Use visualization. <br>
 --> The most dangerous NYC borough / area for a bicycle rider is Brooklyn. It is followed by Manhattan and the Queens.<br>
-<img src='img/collisions_boroughs.png' >
+<img src='img/collisions_boroughs.png' ><br>
 A quick look at the available data, shows that Brookly and the queens have the most collisions. Followed by Manhattan then the Bronx. <br>
 We can also do the following data cleaning for a more in-depth analysis: <br>
 - Adding some of the missing data<br>
@@ -14,14 +14,14 @@ The pedestrian and motorists data show different trends which leads to suspect t
 
 ### Question II
 • What would you change in the locations of bike stations to increase safety? Use visualization. <br>
-<img src='img/collisions_stations.png' >
+<img src='img/collisions_stations.png' ><br>
 ----> There are regions with lower bike stations densities and others not covered yet. <br>
 We should expend in both:<br>
 - Regions with low bike stations coverage but high population density and prone to some activites (like tourism, work, sport...)<br>
 - Extend to regions that are not covered yet (first understand the areas needs)<br>
 
-Cyclist injured and killed collisions:  40274
-<table>
+Cyclist injured and killed collisions:  4027
+             <table>
 		<thead>
 		  <tr>
 		    <th>Borough</th>
@@ -77,29 +77,27 @@ What other interesting patterns do you find in the data? <br>
 Analysis by time and borough<br>
 
 1.The Years<br>
-<img src='img/collisions_by_year_borough.png' >
+<img src='img/collisions_by_year_borough.png' ><br>
 Manhattan has radically been inproving its figures from 2015. The general findings we got before are proved on a yearly bases.<br>
-<img src='img/collisions_years.png' >
+<img src='img/collisions_years.png' ><br>
 From 2019, the data has been showing a decrease in incident records. In 2020, we notice a radical drop to 2012 values (we suspect it s covid restrictions relations)<br>
 
-
 2.The Months<br>
-<img src='img/collisions_months.png' >
+<img src='img/collisions_months.png' ><br>
 The montly records are pretty steady with slightly lower values in winter seasons and an increase from Mai<br>
-<img src='img/2020_monthtly_NYC_collisions.png.png' >
+<img src='img/2020_monthtly_NYC_collisions.png.png' ><br>
 The April 2020 sudden drop in records supports our supposition of the effects of covid restrictions effects (A quick check online supports this too but has to be confirmed)<br>
 
 3.The days<br>
-<img src='img/collisions_day.png' >
+<img src='img/collisions_day.png' ><br>
 The weekend records are lowers compaired to the rest of the active week.<br>
-<img src='img/collisions_day_borough.png' >
-
+<img src='img/collisions_day_borough.png' ><br>
 
 4.The Hours<br>
-<img src='img/collisions_hours.png' >
+<img src='img/collisions_hours.png' ><br>
 There are higher risks of collisions during the standard active hours of the day from 8am -10pm<br>
-<img src='img/collisions_hour_borough.png' >
-Brooklyn keeps the highest levels of risks even by hourly data<br>
+<img src='img/collisions_hour_borough.png' ><br>
+Brooklyn keeps the highest levels of risks even by hourly data<br><br>
 
 Note: Similar analysis can be done to only the cyclists or even to the trio [pedestrian, cyclists, bikes]<br>
 
