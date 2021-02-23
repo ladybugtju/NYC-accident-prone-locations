@@ -21,7 +21,7 @@ We should expend in both:<br>
 - Extend to regions that are not covered yet (first understand the areas needs)<br>
 
 Cyclist injured and killed collisions:  40274
-            table>
+            <table>
 		<thead>
 		  <tr>
 		    <th>Borough</th>
@@ -34,7 +34,7 @@ Cyclist injured and killed collisions:  40274
 		    <td>12442</td>
 		  </tr>
 		  <tr>
-		    <td>MANHATTAN</td>>
+		    <td>MANHATTAN</td>
 		    <td>9143</td>
 		  </tr>
 		  <tr>
