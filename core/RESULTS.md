@@ -20,8 +20,8 @@ We should expend in both:<br>
 - Regions with low bike stations coverage but high population density and prone to some activites (like tourism, work, sport...)<br>
 - Extend to regions that are not covered yet (first understand the areas needs)<br>
 
-Cyclist injured and killed collisions:  4027
-             <table>
+Cyclist injured and killed collisions:  40274
+          <table>
 		<thead>
 		  <tr>
 		    <th>Borough</th>
@@ -56,8 +56,8 @@ Cyclist injured and killed collisions:  4027
 ### Question III
 • Where can an accident occur and how close is this from the nearest bike station? Create a predictive model<br>
 --> Spatiotemporal data<br>
-- Classification biased (array_of_frequency_reshape.value_counts()). Not descriminating between a single accident or many accidents<br> 
-- TimeseriesGenerator: Training the model on the preceeding 6 days to prdict the 7th (using keras TimeseriesGenerator)<br>
+- Classification biased: Not descriminating between a single accident or many accidents<br> 
+- TimeseriesGenerator: Training the model on the preceeding 7 days to prdict the 8th (using keras TimeseriesGenerator)<br>
 - ConvLSTM2D: Xingjian Shi et al. proposed a network structure able to capture spatiotemporal correlations, namely ConvLSTM. In Keras, this is reflected in the ConvLSTM2D class, which computes convolutional operations in both the input and the recurrent transformations.<br>
 <br>
 --> The current approach to solving the problem is relevant and reached an accuracy of 95%. A classification problem requires often other evaluation metrics than the accuracy. Based on the problem faced, the customer may want to focus on lowering the false negatives. In this case we refer to the confusion matrix, precision, recall, f1 score and roc_auc_score<br> 
